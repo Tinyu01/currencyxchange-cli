@@ -1,0 +1,29 @@
+{
+  "name": "currencyxchange-cli",
+  "version": "1.0.0",
+  "description": "CurrencyXchange CLI is a powerful and user-friendly command-line tool for currency conversion and exchange rate tracking. Built with Node.js, it leverages real-time data from a currency API to provide accurate conversions and maintains a local history of all transactions.",
+  "main": "bin/index.js",
+  "bin": {
+    "currencyxchange": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "jest"
+  },
+  "keywords": ["currency", "exchange", "cli"],
+  "repository": {
+    "type": "git",
+    "url": "currencyxchange-cli"
+  },
+  "author": "MASINGITA OTTIS MALULEKE",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "yargs": "^17.0.1",
+    "dotenv": "^10.0.0",
+    "csv-parser": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
